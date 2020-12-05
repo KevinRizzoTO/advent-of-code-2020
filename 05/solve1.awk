@@ -1,13 +1,7 @@
+@include "../utils"
+
 BEGIN {
   FS=""
-}
-
-function ceil(val) {
-  return int(val) + 1
-}
-
-function floor(val) {
-  return int(val)
 }
 
 {
