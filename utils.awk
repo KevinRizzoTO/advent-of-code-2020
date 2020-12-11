@@ -17,3 +17,11 @@ function ceil(val) {
 function floor(val) {
   return int(val)
 }
+
+function join(arr,   str, i) {
+  for (i in arr) { 
+    str = str""arr[i]
+  }
+
+  return str
+}
