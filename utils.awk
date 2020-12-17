@@ -25,3 +25,12 @@ function join(arr,   str, i) {
 
   return str
 }
+
+function push(arr, val) {
+  arr[length(arr) + 1] = val
+}
+
+function make_arr(v) {
+  v[1] = 1
+  delete v[1]
+}
